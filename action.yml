@@ -1,5 +1,5 @@
 name: 'my first container action'
-description ' A hari khadka'
+description: ' A hari khadka'
 author: 'Hari Khadka'
 inputs: # sepeciy dat durin runtime, env variable , parable,
   myInput:
