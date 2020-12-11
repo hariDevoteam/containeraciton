@@ -1,0 +1,16 @@
+name: 'my first container action'
+description ' A hari khadka'
+author: 'Hari Khadka'
+inputs: # sepeciy dat durin runtime, env variable , parable,
+  myInput:
+    description:  'greeting to use'
+    required: true
+    default: 'Awesome Guru'
+outputs: # paramaeter, actions output during uild
+  myOutput:
+    description: 'total memory'
+runs: #what type of container , image in Docker
+  using: 'docker'
+  image: 'Dockerfile'
+     
+   
